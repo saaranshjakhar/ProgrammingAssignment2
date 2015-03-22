@@ -2,8 +2,8 @@
 
 
 # Caching function for a matrix argument.  Returns a vector 
-# of getters and setters for the matrix itself, as well as 
-# placeholders for the matrix inverse calculation.
+# Of getters and setters for the matrix itself, as well as 
+# Placeholders for the matrix inverse calculation.
 
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
@@ -19,8 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 # Calculates the inverse of an assumed square matrix, or retrieves
-# a previously calculated inverse from cache, given a list argument
-# from the function makeCacheMatrix().
+# A previously calculated inverse from cache, given a list argument
+# From the function makeCacheMatrix().
 
 cacheSolve <- function(x, ...) {
 	m <- x$getinverse()
